@@ -7,9 +7,29 @@ h1 {
     border-bottom: 2px solid grey;
 }
 
+img {
+    width: 33.3%;
+    height: 300px;
+}
+
 nav {
     
     margin: 20px auto;
+}
+
+.card {
+    margin: 10px;
+   
+}
+
+
+
+.card-body {
+    background: lightgrey;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .fixed-bottom {
@@ -20,7 +40,8 @@ nav {
 
 @media screen and (max-width: 768px) {
     body {
-        background: lightpink;
+        background-image: url("francisco-de-legarreta-403274-unsplash.jpg");
+        background-size: 768px 768px;
     }
 
     h1 {
@@ -29,5 +50,9 @@ nav {
 
     form {
         color: red;
+    }
+
+    .card-body {
+        background: green;
     }
 }
