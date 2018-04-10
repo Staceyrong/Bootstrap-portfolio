@@ -1,0 +1,29 @@
+body {
+    background-image: url("brooke-lark-609902-unsplash.jpg");
+    background-size: 100%;
+}
+
+h1 {
+    border-bottom: 2px solid grey;
+}
+
+nav {
+    
+    margin: 20px auto;
+}
+
+.fixed-bottom {
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: lightpink;
+    }
+
+    h1 {
+        color: purple;
+    }
+}
