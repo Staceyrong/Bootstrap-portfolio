@@ -41,7 +41,7 @@ nav {
 @media screen and (max-width: 768px) {
     body {
         background-image: url("francisco-de-legarreta-403274-unsplash.jpg");
-        background-size: 768px 768px;
+        background-size: 768px ;
     }
 
     h1 {
