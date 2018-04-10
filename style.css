@@ -26,4 +26,8 @@ nav {
     h1 {
         color: purple;
     }
+
+    form {
+        color: red;
+    }
 }
