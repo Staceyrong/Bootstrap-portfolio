@@ -1,28 +1,13 @@
 body {
     background-image: url("brooke-lark-609902-unsplash.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
-}
-
-h1 {
-    border-bottom: 2px solid grey;
-}
-
-img {
-    width: 33.3%;
-    height: 300px;
-}
-
-nav {
-    
-    margin: 20px auto;
 }
 
 .card {
     margin: 10px;
    
 }
-
-
 
 .card-body {
     background: lightgrey;
@@ -38,10 +23,25 @@ nav {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+h1 {
+    border-bottom: 2px solid grey;
+}
+
+img {
+    width: 33.3%;
+    height: 300px;
+}
+
+nav {  
+    margin: 20px auto;
+}
+
+
+@media screen and (max-width: 640px) {
     body {
         background-image: url("francisco-de-legarreta-403274-unsplash.jpg");
-        background-size: 768px ;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     h1 {
